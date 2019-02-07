@@ -1,0 +1,411 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0,0,0);
+}
+
+#divContainer {
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    color: gray;
+}
+a.mapa {
+    text-decoration: none;
+    color: #808080;
+}
+
+#divLogo {
+    float: left;
+    padding-top: 1%;
+    padding-left: 3%;
+    position: fixed;
+}
+
+#divCabecalho {
+    width: 100%;
+    height: 60px;
+    background-color:rgba(0, 0, 0,0.90);
+    position: fixed;
+    padding-bottom: 10px;
+}
+
+#divCabecalho #menus {
+    color: rgba(250, 250, 250,1);
+    text-align: left;
+    padding-left: 15%;
+    height: 100%;
+    width: 100%;
+}
+
+#menus {
+    font-size: 100%;
+    float: left;
+    font-style: bold;
+}
+
+
+#menus fieldset{
+    width: 1%;
+    height: 80%;
+    padding-top: 1.3%;
+    display: inline;    
+    margin-left: 5%;
+    border: none;
+}
+#menus fieldset:hover{
+    background-color: #F5F5F5;
+    color: rgb(0,0,0);
+}
+
+
+#divCorpo {
+    float: left;
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(0, 0, 0);    
+}
+#destaque{
+    background-color: rgb(0,0,0);
+    margin-left: 10%;
+    margin-top: 7%;
+    margin-bottom: 3%;    
+}
+
+#rodape {
+    height: 12%;
+    width: 100%;
+    background-color:#FFFFFF;    
+    position: inherit;
+}
+h2.roda{
+    text-align: center;
+    font-size: 16;
+    padding-top: 1%;
+    color: #C0C0C0;
+}
+h4{
+    color: #808080;
+    padding: 2%;
+    text-align: center;
+}
+#barra{
+    height: 18%;
+    width: 20%;
+    position: absolute;
+    margin-top: 9%;
+    margin-left: 70%;
+    transform: rotate(60deg);
+    background-color: rgb(0 , 0,0 );
+}
+#sois{
+    text-align: center;
+    padding-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    font-size: 130%;
+    margin-bottom: 5%;
+    background-color: #F5F5F5;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#sois_v{
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 5%;
+    font-size: 150%;
+    margin-bottom: 5%;
+    background-color: #F5F5F5;
+}
+#sois_v video{
+    margin-bottom: 4%;
+}
+
+#eventos {
+    width: 100%;
+    padding-top: 5%;
+    margin-right: 3%;
+    height: 65%;
+}
+
+
+#eventos #e1 {
+border-bottom-right-radius: 10px;
+border-top-right-radius: 10px;
+background: #FFFFFF;
+margin-right: 20%;
+padding-left: 20%;
+}
+#eventos #e1 figure{
+margin-left: 20%;
+}
+
+
+#eventos #e2  {
+border-bottom-left-radius: 10px;
+border-top-left-radius: 10px;
+background: #FFFFFF;
+padding-right: 20%;
+margin-left: 20%;
+margin-top: 5%;
+}
+#eventos #e3 {
+ background-color: #FFFFFF;
+ margin-right: 20%;
+ padding-left: 30%;
+ border-bottom-right-radius: 10px;
+ border-top-right-radius: 10px;
+ margin-top: 5%;
+}
+#eventos #e3 figure{
+margin-left: 20%;
+}
+
+#hdois{
+    height: 30px;
+    background-color: rgb(255,0,0);
+}
+
+#divFixa {
+    top: 0px;
+    right: 0px;
+    width: 80px;
+    height: 30px;
+}
+
+h2.barra{
+    background-color:#F5F5F5;
+    text-align: center;
+    font-size: 200%;
+    width: 100%;
+    
+}
+#redes{
+    padding: 1%;
+    margin-left: 30%;
+}
+#redes figure [alt="rede"]{
+    margin-right: 10%;
+}
+
+/*-------------------------------------------------------------------*/
+
+/*produtos*/
+
+/*-------------------------------------------------------------------*/
+
+img[alt="Destaque_p"]{
+    float: left;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 30%;
+}
+img[alt="p1"]{
+    width: 15%;
+    padding-left: 10%;
+    padding-top: 3%;
+    float: left;
+    transition: all 0.3s;
+}
+img[alt="p1"]:hover{
+ 	transform: scale(1.5);
+}
+img[alt="p2"]{
+    width: 20%;
+    padding-left: 10%;
+    padding-top: 3%;
+    transition: all 0.3s;
+}
+img[alt="p2"]:hover{
+    transform: scale(1.5)
+}
+
+.gold{
+    margin-top: 10%;
+    position: relative;
+    float: left;
+    text-align: center;
+}
+.gold_t{
+    font-size: 150%;
+    margin-top: 20%;
+    float: left;
+    text-align: center;
+    color: rgb(194,181,136);
+    margin-left: 15%;
+    line-height: 150%;
+    
+}
+
+.barra_p{
+    background-color: #FFFFFF;
+    text-align: center;
+    width: 100%;   
+    font-size: 150%;
+    height: 4%;
+    padding-top: 0.1%;
+}
+#p1{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 40%;
+
+    
+}
+#p2{
+    color: #FFFFFF;
+    border-width: 4px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    width: 100%;
+    height: 40%;
+    margin-top: 5%;
+    margin-bottom: 1%;  
+   
+
+
+    
+}
+#p1 span{
+    float: left;
+    text-align: center;
+    margin-left: 19%;
+    padding-top: 1%;
+    line-height: 150%;
+    font-weight: bold;
+}
+.titulo{
+    line-height: 200%;
+}
+#p2 span{
+    float: left;
+    text-align: center;
+    margin-left: 18%;
+    padding-top: 1%;
+    line-height: 150%;
+    font-weight: bold;
+}
+.buy {
+    margin-top: 5.9%;
+    font-size: 150%;
+}.buy2 {
+    margin-top: 5.9%;
+    font-size: 150%;
+}
+.buy:hover{
+    color: rgba(1,2,3,0.2);
+}.buy2:hover{
+    color: rgba(255,255,255,0.2);
+    
+}
+#D{
+    height: 70%;
+    width: 100%;
+}
+
+/*sobre*/
+#nos{
+    margin-top: 10%;
+    background-color: #FFFFFF;
+    text-align: justify;
+    padding-left: 20%;
+    padding-right: 10%;
+    font-style: bold;
+    
+    
+   
+}
+.nois{ 
+    line-height: 150%;
+    font-style: bold;
+    
+}
+
+#top {
+    padding-top: 2%;
+}
+/*contato*/
+#sois_v .contato{
+    font-size: 80%;
+}
+.texto{
+    font-size: 70%;
+    text-align: right;
+    font-style: bold;
+}
+input[type="text"]{
+    color: gray;
+}
+
+/*
+
+////////////////////////P1
+
+*/
+#prod {
+    
+    background-color: #FFFFFF;
+
+    padding-top: 10%;
+}
+#prode{
+    margin-top: 5%;
+    color: #FFFFFF;
+    margin-bottom: 5%;
+}
+.produt{
+    padding-left: 10%;
+    line-height: 150%;
+}
+img[alt="prodi"]{
+    width: 30%;
+    float: left;
+    margin-bottom:10px;
+    transition: all 0.3s;
+    padding-right: 10%;
+    padding-left: 10%;}
+
+img[alt="prodi"]:hover{
+    transform: scale(1.8);
+}
+img[alt="prodie"]:hover{
+    transform: scale(1.5);
+}
+img[alt="prodie"]{
+    width: 30%;
+    float: left;
+    padding-bottom:10%;
+    transition: all 0.3s;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+img[alt="prodio"]{
+    
+    width: 20%;
+    float: left;
+    transition: all 0.3s;
+    padding-right: 10%;
+    padding-left: 8%;
+}
+#prodo{
+    padding-top: 5%;
+    background-color: #FFFFFF;
+    padding-left: 10%;
+}
+img[alt="prodio"]:hover{
+    transform: scale(1.2);
+}
+
+.ab{
+    color: rgba(1,2,3,0.2))
+}
+#q{
+    color: white;
+}
